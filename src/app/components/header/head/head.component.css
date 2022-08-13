@@ -1,0 +1,17 @@
+.head-bar {
+    display: flex;
+    background-color: rgb(131, 81, 177);
+    height: 90px;
+    align-items: center;
+    justify-content: space-between;
+}
+ 
+#logo{
+    height: 50%;
+    margin-left: 2%;
+}
+
+#banner {
+    align-self: center;
+    margin:auto;
+}

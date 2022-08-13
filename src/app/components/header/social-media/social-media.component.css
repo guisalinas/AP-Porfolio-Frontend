@@ -1,0 +1,11 @@
+.social i{
+    color: white;
+    margin-left: 1vh;
+}
+ 
+.social{
+    margin-right: 15px;
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+}

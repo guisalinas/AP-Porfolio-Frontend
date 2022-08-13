@@ -1,0 +1,39 @@
+h1,h3{
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
+}
+
+/*profile image circle responsive*/
+@media(min-width:720px){
+    #profile{
+        position:absolute;
+        top:25%;
+        width: 20%;
+        margin-left: 15%;
+        border-radius: 50%;
+    }
+    .titles{
+        position: absolute;
+        top: 35%;
+        margin-left: 5%;
+        align-items:center;
+    }
+}
+
+@media(min-width:1199px){
+    #profile{
+        position:absolute;
+        top:25%;
+        width: 20%;
+        margin-left: 15%;
+        border-radius: 50%;
+    }
+    .titles{
+        position: absolute;
+        top: 40%;
+        min-width: 100%;
+        margin-left: 10%;
+        align-items:center;
+    }
+}
+
