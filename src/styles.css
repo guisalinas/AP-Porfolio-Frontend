@@ -2,3 +2,8 @@
 h1, h2, h3, p{
     color:#666;
 }
+
+.edit-icon{
+    position: absolute;
+    color: #333;
+}
