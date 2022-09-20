@@ -1,11 +1,9 @@
 .social i{
     color: white;
-    margin-left: 1vh;
+    margin-left: 5px;
+    font-size: 150%;
 }
  
 .social{
     margin-right: 15px;
-    display: flex;
-    align-content: space-between;
-    align-items: center;
 }
