@@ -1,5 +1,5 @@
-.card-cont{
-    display: flex;
-    margin-top: 5%;
-    justify-content: center;
+.col-md-4, .sm-1{
+    display: block;
+    margin: auto;
 }
+
