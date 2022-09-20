@@ -1,11 +1,12 @@
 .head-bar {
     display: flex;
     background-color: rgb(131, 81, 177);
-    height: 90px;
+    height: 80px;
     align-items: center;
     justify-content: space-between;
 }
  
+
 #logo{
     height: 50%;
     margin-left: 2%;

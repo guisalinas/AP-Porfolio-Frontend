@@ -7,6 +7,8 @@ import { SocialMediaComponent } from './components/header/social-media/social-me
 import { AboutComponent } from './components/about/about.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ProfileComponent } from './components/about/profile/profile.component';
+import { ExperienceComponent } from './components/experience/experience.component';
+import { EducationComponent } from './components/education/education.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { ProfileComponent } from './components/about/profile/profile.component';
     HeadComponent,
     SocialMediaComponent,
     AboutComponent,
-    ProfileComponent
+    ProfileComponent,
+    ExperienceComponent,
+    EducationComponent
   ],
   imports: [
     BrowserModule,
