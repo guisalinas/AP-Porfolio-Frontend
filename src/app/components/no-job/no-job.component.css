@@ -1,0 +1,20 @@
+
+h3{
+    color: #8351b1;
+}
+
+
+.img-cont, .text-cont{
+    display: block;
+    margin: auto;
+}
+
+.img-cont{
+    display: block;
+    text-align: center;
+}
+
+
+a{
+    color:#8351b1;
+}

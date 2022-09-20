@@ -9,6 +9,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { ProfileComponent } from './components/about/profile/profile.component';
 import { ExperienceComponent } from './components/experience/experience.component';
 import { EducationComponent } from './components/education/education.component';
+import { NoJobComponent } from './components/no-job/no-job.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { EducationComponent } from './components/education/education.component';
     AboutComponent,
     ProfileComponent,
     ExperienceComponent,
-    EducationComponent
+    EducationComponent,
+    NoJobComponent
   ],
   imports: [
     BrowserModule,
