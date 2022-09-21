@@ -14,6 +14,7 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { SoftSkillsComponent } from './components/soft-skills/soft-skills.component';
 import { SkillsComponent } from './components/skills/skills.component';
+import { HardSkillsComponent } from './components/hard-skills/hard-skills.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { SkillsComponent } from './components/skills/skills.component';
     ProjectsComponent,
     FooterComponent,
     SoftSkillsComponent,
-    SkillsComponent
+    SkillsComponent,
+    HardSkillsComponent
   ],
   imports: [
     BrowserModule,
