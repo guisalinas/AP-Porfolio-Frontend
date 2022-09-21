@@ -11,6 +11,9 @@ import { ExperienceComponent } from './components/experience/experience.componen
 import { EducationComponent } from './components/education/education.component';
 import { NoJobComponent } from './components/no-job/no-job.component';
 import { ProjectsComponent } from './components/projects/projects.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { SoftSkillsComponent } from './components/soft-skills/soft-skills.component';
+import { SkillsComponent } from './components/skills/skills.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { ProjectsComponent } from './components/projects/projects.component';
     ExperienceComponent,
     EducationComponent,
     NoJobComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    FooterComponent,
+    SoftSkillsComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,

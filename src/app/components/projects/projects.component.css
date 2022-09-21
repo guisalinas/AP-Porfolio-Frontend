@@ -15,6 +15,7 @@
   /*---hover---*/
   
   .card {
+    margin-bottom: 20px;
     position:relative;
     height: auto;
     cursor: pointer;

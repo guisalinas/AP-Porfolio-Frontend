@@ -1,0 +1,50 @@
+.skill-cont{
+    display:flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.skills{
+    width: 90%;
+    max-width: 600px;
+    padding: 0 20px;
+}
+
+.sk-name{
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.sk-bar{
+    height: 14px;
+    background-color: #999;
+    border-radius: 3px;
+}
+
+.sk-percentage{
+    height: 14px;
+    background-color: rgb(131, 81, 177);
+    border-radius: 3px;
+    position: relative;
+    animation: fillBars 2.5s 1;
+}
+
+.sk-percentage::before{
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background-color:aliceblue;
+    border-radius: 3px;
+    top: -35px;
+    right: 0;
+    transform: translateX(50%);
+}
+
+@keyframes fillBars{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}
