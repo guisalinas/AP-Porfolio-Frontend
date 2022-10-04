@@ -1,3 +1,81 @@
 {
-	"about": "Soy un pequeño panda programador"
+    "id": 1,
+    "name": "> Guillermina",
+    "surname": "Salinas_",
+    "about_me": "Soy una persona muy copada que quiere hacer todo bien pero no le sale el 90% de las veces. Qué va a ser!",
+    "email": "guillermina@gui.com",
+    "photo_url": "",
+    "description": "Full Stack Developer JR",
+    "job_experience": 
+        [{
+            "id": 1,
+            "company_name": "MiEmpresa",
+            "start_date": "2023-03-03",
+            "finish_date": "2021-03-01",
+            "description": "Aquí trabaje haciendo muchas cosas!",
+            "job_name": "Paseadora de perros"
+		}],
+    "skills": 
+        [{
+            "id": 1,
+            "description": "Soy espectacular comunicandome cuando me salen las palabras",
+            "skill_name": "Comunicacion"
+        }],
+    "education":
+        [{
+            "id": 1,
+            "course_name": "Tecnicatura Universitaria en Programacion",
+            "institute_name": "UTN- Universidad Tecnologica Nacional",
+            "description": "Aprendi copado",
+            "start_date": "2023-03-03",
+            "finish_date": "2021-03-01",
+            "photo_url": ""
+        },
+		{
+            "id": 2,
+            "course_name": "Codo a codo Inicial",
+            "institute_name": "Secretaria del aprendizaje",
+            "description": "Introduccion a la programacion",
+            "start_date": "2023-03-03",
+            "finish_date": "2021-03-01",
+            "photo_url": ""
+        },
+        {
+            "id": 3,
+            "course_name": "Argentina Programa",
+            "institute_name": "Secretaria del aprendizaje",
+            "description": "Introduccion a la programacion",
+            "start_date": "2023-03-03",
+            "finish_date": "2021-03-01",
+            "photo_url": ""
+        },
+        {
+            "id": 3,
+            "course_name": "Argentina Programa",
+            "institute_name": "Secretaria del aprendizaje",
+            "description": "Introduccion a la programacion",
+            "start_date": "2023-03-03",
+            "finish_date": "2021-03-01",
+            "photo_url": ""
+        }],
+    "projects":
+    	[{
+			"id": 1,
+			"project_name": "Portfolio AP",
+			"description": "En este proyecto trabaje con muchas tecnologias.",
+			"project_url": "https://github.com/guisalinas/AP-Porfolio-Frontend.git"
+    	},
+        {
+			"id": 2,
+			"project_name": "Proyecton",
+			"description": "123456.",
+			"project_url": ""
+    	},
+        {
+			"id": 3,
+			"project_name": "Portfolio AP",
+			"description": "Muy lindo todo.",
+			"project_url": ""
+    	}]
 }
+

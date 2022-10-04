@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppComponent } from './app.component';
 import { HeadComponent } from './components/header/head/head.component';
 import { SocialMediaComponent } from './components/header/social-media/social-media.component';
@@ -15,6 +14,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { SoftSkillsComponent } from './components/soft-skills/soft-skills.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { HardSkillsComponent } from './components/hard-skills/hard-skills.component';
+import { LoginComponent } from './components/login/login.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -30,11 +31,13 @@ import { HardSkillsComponent } from './components/hard-skills/hard-skills.compon
     FooterComponent,
     SoftSkillsComponent,
     SkillsComponent,
-    HardSkillsComponent
+    HardSkillsComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
