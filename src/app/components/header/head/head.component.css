@@ -15,3 +15,11 @@
     align-self: center;
     margin:auto;
 }
+
+.btn{
+    color: white;
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
+    font-size: larger;
+    margin-right: 2%;
+}
